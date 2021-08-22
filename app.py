@@ -17,6 +17,9 @@ def indexed(word):
     elif  word.title() in data:
         mean=(data[word.title()])
         return mean
+    elif  word.upper() in data:
+        mean=(data[word.upper()])
+        return mean
     elif( len(get_close_matches(word,data.keys())) > 0 ):
         ind=input(f"Did you mean {get_close_matches(word,data.keys())[0]} :")
         if ind=='y' or ind=='Y':
