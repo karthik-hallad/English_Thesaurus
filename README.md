@@ -11,4 +11,4 @@ Version 1.2 --> Fixed a problem where some words in dictionary where uppper like
 
 Version 2.0 --> Switched to a SQL Database and expanded the scope of data.
 
-Version 2.1 --> Added new feature where if there is small grammatical mistakes in word the programs prompts the right/most suitable word
+Version 2.1 --> Added new feature where if there are small grammatical mistakes in word the programs prompts the right/most suitable word.
